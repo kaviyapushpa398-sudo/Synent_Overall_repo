@@ -1,0 +1,44 @@
+{
+  "best_model": "Gradient Boosting",
+  "features": [
+    "SqFt",
+    "Condition_Enc",
+    "QualityScore",
+    "Age",
+    "AgeCategory",
+    "GarageCars",
+    "TotalRooms",
+    "LotSize",
+    "Bedrooms",
+    "Fireplace",
+    "Floors",
+    "Pool",
+    "Renovated",
+    "Bathrooms",
+    "Style_Victorian",
+    "Neighborhood_Enc",
+    "Style_Colonial"
+  ],
+  "metrics": {
+    "RMSE": 43540.18,
+    "MAE": 30959.21,
+    "R2": 0.946763,
+    "MAPE": 7.608
+  },
+  "neighborhood_classes": [
+    "Downtown",
+    "Eastside",
+    "Heritage",
+    "Lakeside",
+    "Midtown",
+    "Suburbs",
+    "Uptown",
+    "Westside"
+  ],
+  "condition_map": {
+    "Poor": 0,
+    "Fair": 1,
+    "Good": 2,
+    "Excellent": 3
+  }
+}
